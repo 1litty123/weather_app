@@ -79,20 +79,61 @@ h1::selection {
     color: #a8a8a8;
     margin-left:-10px;
     font-style:italic;
-    text-align:left;
     max-width:402px;
     line-height:30px;
 }
 .more-info {
-    font:18px Source Sans Pro;
-    display:inline;
-    color: #a8a8a8;
+    font:bold 30px Source Sans Pro;
+    display:inline-block;
+    color: #ff7272;
     margin-left:-10px;
-    font-style:italic;
-    text-align:left;
+    opacity:0.6;
     max-width:402px;
     line-height:30px;
+    margin-top:10px;
+    -webkit-transition-duration:0.5s;
+    transition-duration:0.5s;
 }
+img {
+    padding-right:35px;
+}
+
+.more-info:hover {
+    opacity:1;
+}
+
+.more-info::selection {
+    background-color:transparent;
+    color:#ff7272;
+}
+.lowHigh {
+    font-size:55px;line-height:45px;display:inline-block;width:200px;padding-top:10px;
+    margin-left:-10px;
+} .lowHigh::selection {
+    background-color:transparent;
+    color:#ff7272;
+}
+.back-info {
+    margin-top:10px;
+    font:bold 30px Source Sans Pro;
+    display:inline-block;
+    color: #ff7272;
+    opacity:0.6;
+    margin-left:-70px;
+    max-width:402px;
+    line-height:30px;
+    -webkit-transition-duration:0.5s;
+    transition-duration:0.5s;
+
+}
+.back-info:hover {
+   opacity:1;
+}
+.back-info::selection {
+    background-color:transparent;
+    color:#ff7272;
+}
+
 .city-info b {
     color:#ff7272;
 }
