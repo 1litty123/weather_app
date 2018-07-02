@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300i');
+#app {
+    margin-top:125px;
+}
+h1 {
+    font: 50px Source Sans Pro;
+    color: #0099ff;
+}
+
+h2 {
+    font:25px Source Sans Pro;
+    color:#0099ff;
+}
+h1::selection {
+    background: #0099ff;
+    color: #fff;
+}
+.city-input {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width:470px;
+    height:60px;
+    font: 45px Source Sans Pro;
+    color:#A8A8A8;
+    display:inline;
+    border:none;
+    margin-top:-60px;
+}
+
+.city-input::selection {
+    background: #A8A8A8;
+    color:#fff;
+}
+.pac-container {
+    font-family: Source Sans Pro;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+    box-shadow: none;
+    border:none;
+}
+.pac-item {
+    font-size:30px;
+    height:30px;
+    padding:5px;
+    border:none;
+}
+.pac-item-query {
+    font-size:30px;
+    color:#A8A8A8;
+}
+.pac-item:hover {
+    background-color:#eee;
+    color:#a8a8a8;
+}
+.pac-item-selected {
+    color:#a8a8a8;
+    background-color:transparent;
+}
+
+.pac-matched {
+    font-weight:none;
+}
+.city-input::placeholder {
+    text-transform:none;
+    color:#A8A8A8;
+}
+.city-weather {
+    font: 80px Source Sans Pro;
+    display:inline;
+    color: #FF7272;
+    margin-left:-10px;
+    /*margin-left:-170px;
+    height:20px;*/
+}
+.city-info {
+    font:18px Source Sans Pro;
+    display:inline;
+    color: #a8a8a8;
+    margin-left:-10px;
+    font-style:italic;
+    text-align:left;
+    max-width:402px;
+    line-height:30px;
+}
+.more-info {
+    font:18px Source Sans Pro;
+    display:inline;
+    color: #a8a8a8;
+    margin-left:-10px;
+    font-style:italic;
+    text-align:left;
+    max-width:402px;
+    line-height:30px;
+}
+.city-info b {
+    color:#ff7272;
+}
+.city-info span {
+    font-size:30px;
+    font-weight:bold;
+    color:#ff7272;
+}
+.city-info span::selection {
+    color:#fff;
+    background-color:#ff7272;
+}
+.city-info b::selection {
+    color:#fff;
+    background-color:#ff7272;
+}
+
+.city-info::selection {
+    background-color:transparent;
+    color:#a8a8a8;
+}
+.city-weather::selection {
+    background: #FF7272;
+    color:#fff;
+}
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.get-weather-button {
+    display:none;
+}
+
+i {
+    font-size:60px;
+    color:#A2DAFF;
+}
