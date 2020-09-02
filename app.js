@@ -1,6 +1,6 @@
 // API Stuff
 var DARKSKY_API_URL = 'https://api.darksky.net/forecast/';
-var DARKSKY_API_KEY = '17a7589edef23c504b52f238553c2848';
+var DARKSKY_API_KEY = '4b6ab3c7b05fca302f52fa13bf194434';
 var CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
 var GOOGLE_MAPS_API_KEY = 'AIzaSyAGhCIRgqzi6x7dSd-h26ukxen1Qg5ViMk';
 var GOOGLE_MAPS_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
