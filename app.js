@@ -2,7 +2,7 @@
 var DARKSKY_API_URL = 'https://api.darksky.net/forecast/';
 var DARKSKY_API_KEY = '17a7589edef23c504b52f238553c2848';
 var CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
-var GOOGLE_MAPS_API_KEY = 'AIzaSyDVd1uF2pm61WZ-25kiLN0-JzIJZWLxbYA';
+var GOOGLE_MAPS_API_KEY = 'AIzaSyAGhCIRgqzi6x7dSd-h26ukxen1Qg5ViMk';
 var GOOGLE_MAPS_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 
 function getCoordinatesForCity(cityName) {
